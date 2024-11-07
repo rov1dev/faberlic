@@ -1,41 +1,113 @@
+:root {
+    --dark: #795c00;
+    --black: #040107;
+    --bg: #d0b84c10;
+}
+
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.solo-card-txt {
+    color: var(--dark);
+}
+
+.solo-card {
+    background: var(--bg);
+}
+
 p {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
+
+.gallery-card {
+    overflow: hidden;
+}
+
+.gallery-card img {
+    transition: all 0.1s ease-in-out;
+}
+
+.gallery-card img:hover {
+    transform: scale(1.1);
+    filter: brightness(90%);
+}
+
+.products {
+    background: var(--bg);
+}
+
+.card-price {
+    color: var(--dark);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.product {
+    max-width: 400px;
+    min-width: 210px;
+    flex: 1 1 20% !important;
+    background: #fff;
+}
+
 .links p {
-  color: gray;
+    color: var(--dark);
 }
+
 .base-btn {
-  padding: 8px 25px;
-  appearance: none;
-  background-color: #22344d;
-  border-radius: 5px;
-  color: white;
-  font-size: 15px;
-  letter-spacing: 1px;
+    padding: 8px 25px;
+    appearance: none;
+    background-color: var(--dark);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
-.gram-btn{
+
+.gram-btn {
     cursor: pointer;
     border-radius: 5px;
-    background:none;
+    background: none;
     padding: 5px 15px;
-    border: 2px solid #22344d;
+    border: 2px solid var(--dark);
 }
-.gram-btn.active{
+
+.gram-btn.active {
     color: white;
-    background-color: #22344d;
+    background-color: var(--dark);
 }
-.count-btn{
+
+.count-btn {
     appearance: none;
     font-size: 10px;
     width: 30px;
     height: 30px;
     background-color: gainsboro;
     color: black;
-    border:2px solid #22344d;
+    border: 2px solid var(--dark);
     border-radius: 3px;
+}
+
+.main-nav a,
+.prod-directs a {
+    color: var(--dark);
+}
+
+.card-text button {
+    text-align: center;
+    padding: 4px 0;
+    color: var(--dark);
+}
+
+.infor {
+    background: transparent;
+    border-radius: 0 0 0 10px;
+}
+
+.add-busket {
+    color: white !important;
+    background: var(--dark);
+    border-radius: 0 0 10px 0;
 }

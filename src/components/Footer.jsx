@@ -5,8 +5,8 @@ const Footer = () => {
     <div>
       <div className="container mt-4">
         <div className="row py-5">
-          <div className="col-lg-3">
-            <p className="fs-5 fw-bold">Mahsulotlar</p>
+          <div className="col-lg-3 col-md-6 col-6">
+            <p className="fs-5 fw-bold ">Mahsulotlar</p>
             <div className="links">
               <p>Katalog</p>
               <p>Parfyumeriya</p>
@@ -15,7 +15,7 @@ const Footer = () => {
               <p>Osvejitel</p>
             </div>
             </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-6 col-6">
             <p className="fs-5 fw-bold">Biz haqimizda</p>
             <div className="links">
               <p>Kompaniya haqida</p>
@@ -24,7 +24,7 @@ const Footer = () => {
               <p>Aloqaga chiqish</p>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-6 col-6">
             <p className="fs-5 fw-bold">Foydali</p>
             <div className="links">
               <p>Aksiya va chegirmalar</p>
@@ -32,7 +32,7 @@ const Footer = () => {
               <p>Dunyo brendlari</p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6 col-6">
             <p className="fs-3 d-flex align-items-center">
               <i class="fa-solid fa-phone fs-5 pe-2"></i>33 702 44 41
             </p>

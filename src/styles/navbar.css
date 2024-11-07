@@ -1,94 +1,102 @@
-nav input {
-  border: none;
-}
-.nav-search {
-  border: 2px solid #777777;
-  border-radius: 20px;
-}
-.nav-directions i {
-  padding: 0 10px;
-  font-size: 18px;
-}
-nav .line {
-  width: 1.2px;
-  height: 25px;
-  margin: 0 10px;
-  background-color: #777777;
-}
-.side-topages p {
-  padding: 10px 0;
-}
-.side-dir a {
-  font-size: 20px;
-  padding: 10px 0;
-}
-.side-dir p {
-  padding-left: 10px;
-  display: inline-block;
-}
-.sidebar a {
-  text-decoration: none;
-  color: #22344d;
-}
-nav p {
-  margin-bottom: 0;
-}
-.main-nav a,
-.prod-directs a {
-  color: #22344d;
-  text-decoration: none;
-  padding: 0 8px;
-}
-.card-text button {
-  text-align: center;
-  padding: 4px 0;
-  border-radius: 8px;
-}
-.add-busket {
-  background: #22344d;
-  color: white;
-  width: 80px;
-}
-.md-nav {
-  display: none;
-}
-.infor {
-  width: 150px;
-  background: none;
-  color: black;
-}
-.mds-filter {
-  display: none !important;
-}
-
-@media only screen and (max-width: 990px) {
-  .md-nav {
-    display: block !important;
-  }
-  .main-nav {
-    display: none;
-  }
-  .filter {
-    display: none !important;
-  }
-  .mds-filter {
-    display: flex !important;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .md-nav .main-side {
-    width: 80% !important;
-  }
-  .extra-side {
-    width: 20% !important;
-  }
-}
-@media only screen and (max-width: 330px) {
-  .md-nav .main-side {
-    width: 100% !important;
-  }
-  .extra-side {
-    width: 0% !important;
-  }
-}
-
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    b nav input {
+        border: none;
+    }
+    
+    .nav-search {
+        border: 2px solid #795c00;
+        border-radius: 20px;
+    }
+    
+    .nav-search input {
+        color: #795c00 !important;
+        border: none;
+        outline: none;
+    }
+    
+    .nav-directions i {
+        padding: 0 10px;
+        font-size: 18px;
+    }
+    
+    nav .line {
+        width: 1.2px;
+        height: 25px;
+        margin: 0 10px;
+        background-color: #795c00;
+    }
+    
+    .side-topages p {
+        padding: 10px 0;
+    }
+    
+    .side-dir a {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    .side-dir p {
+        padding-left: 10px;
+        display: inline-block;
+    }
+    
+    .sidebar a {
+        text-decoration: none;
+        color: #22344d;
+    }
+    
+    nav p {
+        margin-bottom: 0;
+    }
+    
+    .main-nav a,
+    .prod-directs a {
+        text-decoration: none;
+        padding: 0 8px;
+    }
+    
+    .md-nav {
+        display: none;
+    }
+    
+    .mds-filter {
+        display: none !important;
+    }
+    
+    @media only screen and (max-width: 990px) {
+        .md-nav {
+            display: block !important;
+        }
+        .main-nav {
+            display: none;
+        }
+        .filter {
+            display: none !important;
+        }
+        .mds-filter {
+            display: flex !important;
+        }
+    }
+    
+    @media only screen and (max-width: 550px) {
+        .md-nav .main-side {
+            width: 80% !important;
+        }
+        .extra-side {
+            width: 20% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 330px) {
+        .md-nav .main-side {
+            width: 100% !important;
+        }
+        .extra-side {
+            width: 0% !important;
+        }
+    }

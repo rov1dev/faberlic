@@ -9,7 +9,7 @@ const Product = () => {
     key3: false,
   });
   return (
-    <div>
+    <div className="solo-card py-5">
         <div className="container">
           <i class="fa-solid fa-chevron-left"></i>
           <div className="row">
@@ -22,7 +22,7 @@ const Product = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="">
+              <div className="solo-card-txt">
                 <h2>Gucci Guilty Pour Femme</h2>
                 <p>Gucci</p>
                 <p>ayol uchun</p>
